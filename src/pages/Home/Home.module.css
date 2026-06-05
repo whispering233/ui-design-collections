@@ -1,0 +1,29 @@
+.header {
+  margin-bottom: 24px;
+}
+
+.title {
+  margin: 0 0 6px;
+  font-size: 28px;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 15px;
+  color: #64748b;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.empty {
+  text-align: center;
+  padding: 60px 0;
+  color: #94a3b8;
+  font-size: 15px;
+}

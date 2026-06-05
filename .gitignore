@@ -1,0 +1,28 @@
+# 依赖
+node_modules/
+
+# 构建产出
+dist/
+
+# pnpm (lockfile 建议提交以保证依赖一致，如需忽略取消下面注释)
+# pnpm-lock.yaml
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 日志
+*.log
+npm-debug.log*
